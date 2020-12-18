@@ -8,6 +8,7 @@ const FILES_TO_CACHE = [
   "/index.js",
   "/styles.css",
   "/manifest.webmanifest",
+  "/routes/api.js"
 ];
 
 
