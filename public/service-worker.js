@@ -11,10 +11,9 @@ const staticFilesToPreCache = [
     "/index.js",
     "/chart.js",
     "/manifest.webmanifest",
-    "/db.js",
+   // "/db.js",
     "/index.html",
     "/styles.css",
-
 ].concat(iconFiles);
 
 
