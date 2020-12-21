@@ -1,6 +1,5 @@
 # Online/Offline Budget Trackers
 
-
 # EAT-DA-BURGER
 
 ## Table of Contents
@@ -16,7 +15,7 @@
 
 ## Description
 
-I have created a burger logger utilizing the power of MySQL, Node, Express, Handlebars and a homemade ORM. This application has followed the MVC design pattern, using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML file.
+This application allows the user to add expenses and deposits to their budget with or without a connection. When entering transactions offline, it would populate the total when brought back online.
 
 Please find the deployed application from here deloyed on Heroku:
 https://salty-oasis-06752.herokuapp.com/
@@ -24,14 +23,11 @@ https://salty-oasis-06752.herokuapp.com/
 ## Technologies used
 
 - JavaScript
-- Handlebars.js
-- Node
-- Express
-- MySQL
-- ORM
 - HTML
 - CSS
-- [Bulma CSS](https://bulma.io/)
+- MongoDB, Mongoose
+- ServiceWorker
+- Manifest
 - npm packages
 
 ## How to install dependencies

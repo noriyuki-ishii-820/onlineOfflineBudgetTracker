@@ -6,13 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#317EFB">
   <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="manifest" href="manifest.webmanifest" />
   <title>Budget Tracker</title>
 </head>
 <body>
+  <header>
+    <span class="appTitle">Budget Tracker: Track your Budget Wherever You Are!</span>
+    <button class="button btn-black"><a href="https://github.com/noriyuki-ishii-820/onlineOfflineBudgetTracker">GitHub</a></button>
+  </header>
+
   <div class="wrapper">
     <div class="total">
       <div class="total">Your total is: $<span id="total">0</span></div>
@@ -40,6 +44,9 @@
     
     <canvas id="myChart"></canvas>
   </div>
+
+
+  
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="db.js"></script>
